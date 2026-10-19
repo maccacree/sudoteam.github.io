@@ -1,0 +1,1 @@
+const viewer=document.getElementById('viewer');document.getElementById('zoom').addEventListener('click',()=>viewer.showModal());document.getElementById('close').addEventListener('click',()=>viewer.close());viewer.addEventListener('click',e=>{if(e.target===viewer)viewer.close()});
